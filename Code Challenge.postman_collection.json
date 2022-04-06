@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "962381dc-7261-41da-acdf-55335fd6cb39",
+		"name": "Code Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=200&term=2&existingCredit=0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=200&term=2&existingCredit=0",
+					"host": [
+						"localhost"
+					],
+					"port": "60009",
+					"path": [
+						"api",
+						"InterestCalculator",
+						"CalculateRate"
+					],
+					"query": [
+						{
+							"key": "creditAmount",
+							"value": "200"
+						},
+						{
+							"key": "term",
+							"value": "2"
+						},
+						{
+							"key": "existingCredit",
+							"value": "0"
+						}
+					]
+				},
+				"description": "Decision No"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=200&term=2&existingCredit=0 Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=200000&term=24&existingCredit=44500",
+					"host": [
+						"localhost"
+					],
+					"port": "60009",
+					"path": [
+						"api",
+						"InterestCalculator",
+						"CalculateRate"
+					],
+					"query": [
+						{
+							"key": "creditAmount",
+							"value": "200000"
+						},
+						{
+							"key": "term",
+							"value": "24"
+						},
+						{
+							"key": "existingCredit",
+							"value": "44500"
+						}
+					]
+				},
+				"description": "Decision No"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=200&term=2&existingCredit=0 Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:60009/api/InterestCalculator/CalculateRate?creditAmount=20000&term=12&existingCredit=0",
+					"host": [
+						"localhost"
+					],
+					"port": "60009",
+					"path": [
+						"api",
+						"InterestCalculator",
+						"CalculateRate"
+					],
+					"query": [
+						{
+							"key": "creditAmount",
+							"value": "20000"
+						},
+						{
+							"key": "term",
+							"value": "12"
+						},
+						{
+							"key": "existingCredit",
+							"value": "0"
+						}
+					]
+				},
+				"description": "Decision Yes"
+			},
+			"response": []
+		}
+	]
+}
